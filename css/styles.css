@@ -1,0 +1,58 @@
+:root {
+  --color-brand: #2b7fff;
+  --primary-color-dark: #011c44;
+  --primary-color-light: #ffffff;
+  --secondary-color-dark: #011f4a;
+  --secondary-color-light: #4a4a4a;
+  --secondary-color-black: #000000;
+}
+
+/*base*/
+ul {
+  list-style-type: none;
+}
+
+body {
+  color: var(--primary-color-dark);
+}
+
+/*link*/
+.link {
+  color: var(--primary-color-dark);
+}
+
+.link:hover {
+  color: var(--color-brand);
+}
+
+/*hero-section*/
+.hero-title {
+  color: var(--color-brand);
+}
+
+/*button*/
+.button {
+  color: var(--primary-color-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--primary-color-dark);
+}
+
+.caption-button {
+  color: var(--secondary-color-light);
+}
+
+.section-title .accent {
+  color: var(--color-brand);
+}
+
+/*advantages-section*/
+.advantages-card {
+  color: var(--secondary-color-black);
+}
